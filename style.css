@@ -1,19 +1,50 @@
 body{
     font-family: 'Roboto', sans-serif;
  font-family: 'Yusei Magic', sans-serif;
+
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
-.name_highlight{
+h2{
+    font-size: 35px;
+    color: tomato;
+}
+.orange_highlight{
     color: orange;
+}
+#space{
+    margin-top: -15px;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 3%;
     padding-left: 2%;
-}
+   }
 .half-width img{
     width: 100%;
 }
+.top_banner{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.link-button{
+    text-decoration:none ;
+    background-image: linear-gradient(45 deg,salmon,tomato );
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+   }
+   .dream-area{
+       background-image: url("img/dream-bg.png");
+       background-repeat: no-repeat;
+       background-position: right;
+   }
